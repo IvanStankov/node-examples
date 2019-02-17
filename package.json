@@ -1,0 +1,20 @@
+{
+  "name": "node-examples",
+  "version": "1.0.0",
+  "description": "Node crash course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev-v1": "nodemon server-v1.js",
+    "dev-v2": "nodemon server-v2.js"
+  },
+  "author": "Ivan Stankov",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^3.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
